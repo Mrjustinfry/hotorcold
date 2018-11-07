@@ -6,9 +6,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.guessBox {
+    margin: 30% auto;
+    flex: 1;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 5%;
+    min-width: 400px;
+}
+
+button {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+.numbers {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
